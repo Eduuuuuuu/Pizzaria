@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página principal do Tony Pizzaria">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/pizza-background.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/home.js" defer></script>
+    <title>Home - Tony Pizzaria</title>
+</head>
+<body>
+    <header>
+        <div class="container-info-pessoal">
+            <div class="saudacao">
+                <h3> Home </h3>
+                <span id="nome-usuario"> Bom dia, Celso </span>
+            </div>
+            <button>
+                <a href="./perfil.html">
+                    <img src="../img/celso.webp" alt="Celso" id="foto-usuario">
+                </a>
+            </button>
+        </div>
+        <div class="input">
+            <input type="search" placeholder="Buscar algo para matar a minha fome" aria-placeholder="Buscar algo para matar a minha fome" id="search" name="search" autocomplete="off">
+            <button>
+                <img src="../img/icons/Search.svg" alt="Lupa">
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="food-option">
+            <h2> Categorias </h2>
+            <ul class="container-categorias" id="container-categorias">
+                <!-- Categorias inseridas com Javascript -->
+            </ul>
+        </section>
+        <section class="food-option">
+            <h2> Minhas Pizzas Favoritas </h2>
+            <div class="container-pizzas" id="pizzas-favoritas">
+                <!-- Pizzas inseridas com Javascript -->
+            </div>
+        </section>
+        <section class="food-option">
+            <h2> Recomendados para você </h2>
+            <div class="container-pizzas" id="pizzas-recomendadas">
+                <!-- Pizzas inseridas com Javascript -->
+            </div>
+        </section>
+        <section class="food-option">
+            <h2> Bebidas </h2>
+            <div class="container-bebidas" id="container-bebidas">
+                <!-- Bebidas inseridas com Javascript -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <button class="option">
+            <a href="./perfil.html">
+                <img src="../img/icons/User.svg" alt="Ícone de usuário">
+                <span> Meu Perfil </span>
+            </a>
+        </button>
+        <button class="option" id="bebidas">
+            <a href="#">
+                <img src="../img/icons/Beer.svg" alt="Ícone de bebidas">
+                <span> Bebidas </span>
+            </a>
+        </button>
+        <button class="option">
+            <a href="#">
+                <img src="../img/icons/Cupcake.svg" alt="Ícone de Sobremesas">
+                <span> Sobremesas </span>
+            </a>
+        </button>
+    </footer>
+</body>
+</html>

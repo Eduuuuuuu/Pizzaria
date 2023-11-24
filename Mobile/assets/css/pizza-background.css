@@ -1,6 +1,6 @@
 body{
     background-color: var(--laranja);
-    background-image: url(../img/background.webp);
+    background-image: url(./img/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@ body::after{
     }
 
     body::after{
-        background-image: url(../img/background-desktop.webp);
+        background-image: url(./img/background-desktop.webp);
         background-size: cover;
         width: 55%;
         inset: auto;
